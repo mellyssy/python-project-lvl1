@@ -6,10 +6,12 @@ def run():
     print(f'Hello, {name}!')
     return name
 
+
 def get_num(num):
     print(f'Question: {num}')
     answer = prompt.string('Your answer: ')
     return answer
+
 
 def main():
     run()
