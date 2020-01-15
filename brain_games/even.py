@@ -1,4 +1,4 @@
-from cli import get_num
+from . import cli
 from random import randint
 
 def even(player_name):
@@ -6,7 +6,7 @@ def even(player_name):
 
     while score < 3:
         question = randint(1, 100)
-        output = get_num(question) # will return string 'yes' or 'no'
+        output = cli.get_num(question) # will return string 'yes' or 'no'
 
         if question % 2 == 0:
             is_even = 'yes'
