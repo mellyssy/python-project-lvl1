@@ -1,6 +1,7 @@
 from .calc import calc
 from .even import even
 from .gcd import gcd
+from .progression import progression
 
 
 def game_run(player_name, game_name):
@@ -14,6 +15,8 @@ def game_run(player_name, game_name):
             res = even()
         elif game_name == "gcd":
             res = gcd()
+        elif game_name == "progression":
+            res = progression()
 
         if res[0] == res[1]:
             print("Correct")
