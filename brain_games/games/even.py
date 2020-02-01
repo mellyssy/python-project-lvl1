@@ -1,5 +1,5 @@
-from .. import cli
 from random import randint
+from .. import cli
 
 
 def even():
@@ -7,15 +7,12 @@ def even():
     output = cli.get_num(question)
 
     if question % 2 == 0:
-        is_even = 'yes'
+        is_even = "yes"
     else:
-        is_even = 'no'
+        is_even = "no"
 
-    return {
-        'output': output,
-        'correct': is_even
-    }
+    return (output, is_even)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     even()

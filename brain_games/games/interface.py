@@ -1,5 +1,6 @@
 from .calc import calc
 from .even import even
+from .gcd import gcd
 
 
 def game_run(player_name, game_name):
@@ -11,14 +12,16 @@ def game_run(player_name, game_name):
             res = calc()
         elif game_name == "even":
             res = even()
+        elif game_name == "gcd":
+            res = gcd()
 
-        if res["output"] == res["correct"]:
+        if res[0] == res[1]:
             print("Correct")
             score += 1
         else:
             print(
-                f"'{res['output']}' is wrong answer ;(.",
-                f"Correct answer was '{res['correct']}'.",
+                f"'{res[0]}' is wrong answer ;(.",
+                f"Correct answer was '{res[1]}'.",
             )
             print(f"Let's try again, {player_name}!")
             break

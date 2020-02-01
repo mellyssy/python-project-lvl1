@@ -4,10 +4,10 @@ from ..games.interface import game_run
 
 def main():
     print("Welcome to the Brain Games!")
-    print("What is the result of the expression?")
+    print("Find the greatest common divisor of given numbers.")
     print()
     name = run()
-    game_run(name, "calc")
+    game_run(name, "gcd")
 
 
 if __name__ == "__main__":
