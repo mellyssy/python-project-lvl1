@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "mellyssy_brain_games"
-version = "0.4.0"
+version = "0.5.0"
 description = "hexlet project lv1"
 authors = ["mellyssy <ksenyatokareva@gmail.com>"]
 

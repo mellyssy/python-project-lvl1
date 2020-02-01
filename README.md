@@ -7,5 +7,3 @@
 Установка пакета:
 
 `pip install -i https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple/ mellyssy-brain-games`
-
-[Пример установки и запуска](https://asciinema.org/a/4P9bzrKnREM6YvWsqr7ExmnWw)
