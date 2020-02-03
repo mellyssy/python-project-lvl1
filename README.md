@@ -8,4 +8,28 @@
 
 `pip install -i https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple/ mellyssy-brain-games`
 
-[Пример установки и запуска](https://asciinema.org/a/PYwksKByaRbeiR8hQb5jOEL8s)
+---
+
+### Пример установки и запуска
+
+[![asciicast](https://asciinema.org/a/pu9Cwe9ao98ewkf9ljoOQhFCz.svg)](https://asciinema.org/a/pu9Cwe9ao98ewkf9ljoOQhFCz)
+
+### Игра "Проверка на четность"
+
+[![asciicast](https://asciinema.org/a/kulntvaHPO2i9Z1FmZQAMONlw.svg)](https://asciinema.org/a/kulntvaHPO2i9Z1FmZQAMONlw)
+
+### Игра "Калькулятор"
+
+[![asciicast](https://asciinema.org/a/kAZULrzrc4y0ID5elsS4sje5I.svg)](https://asciinema.org/a/kAZULrzrc4y0ID5elsS4sje5I)
+
+### Игра "НОД"
+
+[![asciicast](https://asciinema.org/a/01ew7mC07jJkdPR9FqC5704df.svg)](https://asciinema.org/a/01ew7mC07jJkdPR9FqC5704df)
+
+### Игра "Арифметическая прогрессия"
+
+[![asciicast](https://asciinema.org/a/2oSP5SQ1S6tJCtVVsfGmIPu9U.svg)](https://asciinema.org/a/2oSP5SQ1S6tJCtVVsfGmIPu9U)
+
+### Игра "Простое ли число?"
+
+[![asciicast](https://asciinema.org/a/WsIJXrrOfmfaWGb3jI0P6Qdgn.svg)](https://asciinema.org/a/WsIJXrrOfmfaWGb3jI0P6Qdgn)
