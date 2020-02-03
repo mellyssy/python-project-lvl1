@@ -1,10 +1,9 @@
-from brain_games.cli import run
-from ..games.interface import game_run
+from brain_games.game_engine import game_run
+from brain_games.games import is_prime
 
 
 def main():
-    name = run('Answer "yes" if given number is prime. Otherwise answer "no".')
-    game_run(name, "is-prime")
+    game_run(is_prime)
 
 
 if __name__ == "__main__":

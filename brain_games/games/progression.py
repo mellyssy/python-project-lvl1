@@ -1,6 +1,7 @@
 from .. import cli
 from random import randint
 
+RULES = "What number is missing in the progression?"
 
 def generate_progression():
     start = randint(1, 100)
@@ -15,7 +16,7 @@ def generate_progression():
     return res
 
 
-def progression():
+def run_game():
     ap_lst = generate_progression()
     ind = randint(0, 9)
     question = ""
@@ -26,11 +27,7 @@ def progression():
         else:
             question = question + str(ap_lst[i]) + " "
 
-    output = int(cli.get_answer(question.rstrip()))
+    output = cli.get_answer(question.rstrip())
     correct = ap_lst[ind]
 
-    return (output, correct)
-
-
-if __name__ == "__main__":
-    progression()
+    return (output, str(correct))

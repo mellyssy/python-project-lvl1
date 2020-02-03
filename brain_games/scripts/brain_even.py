@@ -1,10 +1,9 @@
-from brain_games.cli import run
-from ..games.interface import game_run
+from brain_games.game_engine import game_run
+from brain_games.games import even
 
 
 def main():
-    name = run('Answer "yes" if number even otherwise answer "no".')
-    game_run(name, "even")
+    game_run(even)
 
 
 if __name__ == "__main__":

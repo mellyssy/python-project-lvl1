@@ -1,8 +1,9 @@
 from random import randint
 from .. import cli
 
+RULES = 'Answer "yes" if number even otherwise answer "no".'
 
-def even():
+def run_game():
     question = randint(1, 100)
     output = cli.get_answer(question)
 
@@ -12,7 +13,3 @@ def even():
         is_even = "no"
 
     return (output, is_even)
-
-
-if __name__ == "__main__":
-    even()

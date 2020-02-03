@@ -1,10 +1,9 @@
-from brain_games.cli import run
-from ..games.interface import game_run
+from brain_games.game_engine import game_run
+from brain_games.games import calc
 
 
 def main():
-    name = run("What is the result of the expression?")
-    game_run(name, "calc")
+    game_run(calc)
 
 
 if __name__ == "__main__":

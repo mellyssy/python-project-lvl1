@@ -1,13 +1,14 @@
 from .. import cli
 from random import randint
 
+RULES = "Find the greatest common divisor of given numbers."
 
-def gcd():
+def run_game():
     a = randint(1, 100)
     b = randint(1, 100)
 
     question = f"{a} {b}"
-    output = int(cli.get_answer(question))
+    output = cli.get_answer(question)
 
     if a == b:
         return (output, a)
@@ -24,8 +25,4 @@ def gcd():
         remainder = a % b
         a, b = b, remainder
 
-    return (output, a)
-
-
-if __name__ == "__main__":
-    gcd()
+    return (output, str(a))

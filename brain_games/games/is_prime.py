@@ -2,6 +2,7 @@ from .. import cli
 from random import randint
 import math
 
+RULES = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 def is_prime(num):
     mx = math.sqrt(num)
@@ -16,14 +17,10 @@ def is_prime(num):
         return 'yes'
 
 
-def get_prime():
+def run_game():
     n = randint(0, 100)
 
     output = cli.get_answer(f'{n}')
     prime = is_prime(n)
 
     return (output, prime)
-
-
-if __name__ == "__main__":
-    get_prime()
