@@ -3,10 +3,7 @@ from ..games.interface import game_run
 
 
 def main():
-    print("Welcome to the Brain Games!")
-    print("What number is missing in the progression?")
-    print()
-    name = run()
+    name = run("What number is missing in the progression?")
     game_run(name, "progression")
 
 

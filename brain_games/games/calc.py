@@ -11,7 +11,7 @@ def calc():
     operator = choice(operators)
 
     question = f"{a} {operator} {b}"
-    output = int(cli.get_num(question))
+    output = int(cli.get_answer(question))
 
     correct = eval(question)
 

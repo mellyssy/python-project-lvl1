@@ -3,10 +3,7 @@ from ..games.interface import game_run
 
 
 def main():
-    print("Welcome to the Brain Games!")
-    print("What is the result of the expression?")
-    print()
-    name = run()
+    name = run("What is the result of the expression?")
     game_run(name, "calc")
 
 

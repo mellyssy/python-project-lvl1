@@ -3,10 +3,7 @@ from ..games.interface import game_run
 
 
 def main():
-    print("Welcome to the Brain Games!")
-    print('Answer "yes" if number even otherwise answer "no".')
-    print()
-    name = run()
+    name = run('Answer "yes" if number even otherwise answer "no".')
     game_run(name, "even")
 
 

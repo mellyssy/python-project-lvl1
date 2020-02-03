@@ -7,7 +7,7 @@ def gcd():
     b = randint(1, 100)
 
     question = f"{a} {b}"
-    output = int(cli.get_num(question))
+    output = int(cli.get_answer(question))
 
     if a == b:
         return (output, a)

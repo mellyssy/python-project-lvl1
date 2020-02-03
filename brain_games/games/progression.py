@@ -26,7 +26,7 @@ def progression():
         else:
             question = question + str(ap_lst[i]) + " "
 
-    output = int(cli.get_num(question.rstrip()))
+    output = int(cli.get_answer(question.rstrip()))
     correct = ap_lst[ind]
 
     return (output, correct)

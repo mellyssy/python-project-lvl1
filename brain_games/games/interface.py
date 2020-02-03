@@ -2,6 +2,7 @@ from .calc import calc
 from .even import even
 from .gcd import gcd
 from .progression import progression
+from .is_prime import get_prime
 
 
 def game_run(player_name, game_name):
@@ -17,6 +18,8 @@ def game_run(player_name, game_name):
             res = gcd()
         elif game_name == "progression":
             res = progression()
+        elif game_name == 'is-prime':
+            res = get_prime()
 
         if res[0] == res[1]:
             print("Correct")
