@@ -3,15 +3,14 @@ from operator import add, sub, mul
 from .. import cli
 
 RULES = "What is the result of the expression?"
+OPERATIONS = [("+", add), ("-", sub), ("*", mul)]
 
 
 def run_game():
-    operations = [("+", add), ("-", sub), ("*", mul)]
-
     a = randint(1, 100)
     b = randint(1, 100)
 
-    operator, func = choice(operations)
+    operator, func = choice(OPERATIONS)
 
     question = f"{a} {operator} {b}"
 
