@@ -4,6 +4,7 @@ from .. import cli
 
 RULES = "What is the result of the expression?"
 
+
 def run_game():
     operations = [("+", add), ("-", sub), ("*", mul)]
 
@@ -13,7 +14,7 @@ def run_game():
     operator, func = choice(operations)
 
     question = f"{a} {operator} {b}"
-    
+
     output = cli.get_answer(question)
 
     correct = func(a, b)

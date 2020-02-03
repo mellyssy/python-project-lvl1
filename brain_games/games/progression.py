@@ -3,6 +3,7 @@ from random import randint
 
 RULES = "What number is missing in the progression?"
 
+
 def generate_progression():
     start = randint(1, 100)
     step = randint(1, 10)

@@ -3,6 +3,7 @@ from .. import cli
 
 RULES = 'Answer "yes" if number even otherwise answer "no".'
 
+
 def run_game():
     question = randint(1, 100)
     output = cli.get_answer(question)

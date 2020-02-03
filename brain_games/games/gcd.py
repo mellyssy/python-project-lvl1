@@ -3,6 +3,7 @@ from random import randint
 
 RULES = "Find the greatest common divisor of given numbers."
 
+
 def run_game():
     a = randint(1, 100)
     b = randint(1, 100)

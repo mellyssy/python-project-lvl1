@@ -1,5 +1,5 @@
-import brain_games.games
 from brain_games.cli import run
+
 
 def game_run(game_name):
     player_name = run(game_name.RULES)
