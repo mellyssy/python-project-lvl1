@@ -12,7 +12,7 @@ Installation:
 
 ### Installation and first run:
 
-[![asciicast](https://asciinema.org/a/pu9Cwe9ao98ewkf9ljoOQhFCz.svg)](https://asciinema.org/a/pu9Cwe9ao98ewkf9ljoOQhFCz)
+[![asciicast](https://asciinema.org/a/b5Kxl7BiPx7mIq2rIE5aY63fr.svg)](https://asciinema.org/a/b5Kxl7BiPx7mIq2rIE5aY63fr)
 
 ### Check if the number is even:
 
