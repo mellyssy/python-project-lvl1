@@ -9,17 +9,17 @@ def generate_progression():
     stop = start + (step * 10)
 
     progression = [str(x) for x in range(start, stop, step)]
-    skip = randint(0, 9)
 
-    correct = progression[skip]
-    progression[skip] = ".."
-
-    question = " ".join(progression)
-
-    return (question, correct)
+    return progression
 
 
 def run_game():
-    question, correct = generate_progression()
+    progression = generate_progression()
+
+    skip = randint(0, 9)
+    correct = progression[skip]
+
+    progression[skip] = ".."
+    question = " ".join(progression)
 
     return (question, correct)
