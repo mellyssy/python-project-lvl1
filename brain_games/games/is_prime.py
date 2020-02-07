@@ -1,4 +1,3 @@
-from .. import cli
 from random import randint
 import math
 
@@ -21,7 +20,7 @@ def is_prime(num):
 def run_game():
     n = randint(0, 100)
 
-    output = cli.get_answer(f"{n}")
+    question = f"{n}"
     prime = is_prime(n)
 
-    return (output, prime)
+    return (question, prime)

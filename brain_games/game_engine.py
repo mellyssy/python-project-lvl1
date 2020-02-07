@@ -1,14 +1,18 @@
-from brain_games.cli import run
+from brain_games.cli import run, get_answer
+
+MAX_SCORE = 3
 
 
-def game_run(game_name):
-    player_name = run(game_name.RULES)
+def game_run(game):
+    player_name = run(game.RULES)
 
     score = 0
 
-    while score < 3:
+    while score < MAX_SCORE:
 
-        answer, correct = game_name.run_game()
+        question, correct = game.run_game()
+
+        answer = get_answer(question)
 
         if answer != correct:
             print(
@@ -21,7 +25,3 @@ def game_run(game_name):
         score += 1
 
     print(f"Congratulations, {player_name}!")
-
-
-if __name__ == "__main__":
-    game_run()

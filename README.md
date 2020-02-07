@@ -1,35 +1,35 @@
-# Игры разума
+# Brain Games
 
-[![Maintainability](https://api.codeclimate.com/v1/badges/6c8a2158f9ef1a05e2ba/maintainability)](https://codeclimate.com/github/mellyssy/python-project-lvl1/maintainability) [![Test Coverage](https://api.codeclimate.com/v1/badges/6c8a2158f9ef1a05e2ba/test_coverage)](https://codeclimate.com/github/mellyssy/python-project-lvl1/test_coverage) [![Build Status](https://travis-ci.org/mellyssy/python-project-lvl1.svg?branch=master)](https://travis-ci.org/mellyssy/python-project-lvl1)
+[![Maintainability](https://api.codeclimate.com/v1/badges/6c8a2158f9ef1a05e2ba/maintainability)](https://codeclimate.com/github/mellyssy/python-project-lvl1/maintainability) [![Build Status](https://travis-ci.org/mellyssy/python-project-lvl1.svg?branch=master)](https://travis-ci.org/mellyssy/python-project-lvl1)
 
-[Проект от Hexlet](https://ru.hexlet.io/professions/python/projects/49) первого уровня, в рамках профессии Python-программист. 
+Brain Games. Level 1 project on [Hexlet](https://ru.hexlet.io/professions/python/projects/49), program: Python developer. 
 
-Установка пакета:
+Installation:
 
 `pip install -i https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple/ mellyssy-brain-games`
 
 ---
 
-### Пример установки и запуска
+### Installation and first run:
 
 [![asciicast](https://asciinema.org/a/pu9Cwe9ao98ewkf9ljoOQhFCz.svg)](https://asciinema.org/a/pu9Cwe9ao98ewkf9ljoOQhFCz)
 
-### Игра "Проверка на четность"
+### Check if the number is even:
 
 [![asciicast](https://asciinema.org/a/kulntvaHPO2i9Z1FmZQAMONlw.svg)](https://asciinema.org/a/kulntvaHPO2i9Z1FmZQAMONlw)
 
-### Игра "Калькулятор"
+### Calculate the result of expression:
 
 [![asciicast](https://asciinema.org/a/kAZULrzrc4y0ID5elsS4sje5I.svg)](https://asciinema.org/a/kAZULrzrc4y0ID5elsS4sje5I)
 
-### Игра "НОД"
+### Find greatest common divisor:
 
 [![asciicast](https://asciinema.org/a/01ew7mC07jJkdPR9FqC5704df.svg)](https://asciinema.org/a/01ew7mC07jJkdPR9FqC5704df)
 
-### Игра "Арифметическая прогрессия"
+### Find a missing number in progression:
 
 [![asciicast](https://asciinema.org/a/2oSP5SQ1S6tJCtVVsfGmIPu9U.svg)](https://asciinema.org/a/2oSP5SQ1S6tJCtVVsfGmIPu9U)
 
-### Игра "Простое ли число?"
+### Check if the number is prime:
 
 [![asciicast](https://asciinema.org/a/WsIJXrrOfmfaWGb3jI0P6Qdgn.svg)](https://asciinema.org/a/WsIJXrrOfmfaWGb3jI0P6Qdgn)
