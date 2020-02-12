@@ -10,17 +10,14 @@ def is_prime(num):
     i = 2
     while i <= mx:
         if num % i == 0:
-            return "no"
+            return False
         else:
             i += 1
-    else:
-        return "yes"
+    return True
 
 
 def run_game():
-    n = randint(0, 100)
-
-    question = f"{n}"
-    prime = is_prime(n)
+    question = randint(0, 100)
+    prime = 'yes' if is_prime(question) else 'no'
 
     return (question, prime)

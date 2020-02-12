@@ -15,12 +15,3 @@ def get_answer(question):
     print(f"Question: {question}")
     answer = prompt.string("Your answer: ")
     return answer
-
-
-def main():
-    run()
-    get_answer()
-
-
-if __name__ == "__main__":
-    main()
